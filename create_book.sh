@@ -1,4 +1,4 @@
-pandoc -o ./build/book.pdf src/title.txt \
+pandoc --toc -o ./build/book.pdf src/title.txt \
   src/01-intro/intro.md \
   src/02-model-evaluation/model-evaluation.md \
   src/03-supervised-learning/supervised-learning.md \
